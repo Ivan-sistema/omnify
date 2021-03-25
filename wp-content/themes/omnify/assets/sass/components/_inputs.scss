@@ -1,0 +1,114 @@
+input{
+    &[type=text],
+    &[type=email]{
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid $white;
+        padding: 1px;
+        width: 100%;
+        margin: 20px 0;
+        height: 40px;
+        color: $white;
+        font-family: $mazzardm_regular;
+    }
+
+    &[type=submit]{
+        border-radius:50px;
+        border: 1px solid $green;
+        @extend %f-flex;
+        @extend %f-all-center;
+        height: 80px;
+        color: $green;
+        width: 320px;
+        margin: 20px 0;
+        float: right;
+        font-size: 23px;
+        font-family: $mazzardm_regular;
+    }
+}
+
+textarea{
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid $white;
+        padding: 1px;
+        width: 100%;
+        margin: 20px 0 !important;
+        height: 40px;
+        color: $white;
+        font-family: $mazzardm_regular;
+}
+
+@media #{$media-down-lg} {
+
+    input{
+        &[type=text],
+        &[type=email]{
+            margin: 15px 0;
+            height: 40px;
+        }
+    
+        &[type=submit]{
+            border-radius:50px;
+            border: 1px solid $green;
+            height: 60px;
+            color: $green;
+            width: 320px;
+            margin: 15px 0;
+            float: right;
+            font-size: 23px;
+        }
+    }
+    
+    textarea{
+            margin: 15px 0 !important;
+            height: 40px;
+    }
+    
+}
+
+   
+@media #{$media-down-md} {
+
+    input{
+        
+        &[type=text],
+        &[type=email]{
+            padding: 1px;
+            width: 100%;
+            margin: 10px 0;
+            height: 40px;
+            color: $white;
+            font-size: 14px;
+            font-family: $mazzardm_regular;
+        }
+    
+        &[type=submit]{
+            border-radius:50px;
+            border: none;
+            height: 70px;
+            color: $white;
+            width: 234px;
+            margin: 15px auto 0;
+            float: right;
+            font-size: 18px;
+            font-family: $mazzardm_regular;
+            background: #1BD68F;
+            float: none !important;
+        }
+    }
+    
+    textarea{
+            padding: 1px;
+            width: 100%;
+            margin: 10px 0 !important;
+            height: 40px;
+            font-size: 14px;
+            font-family: $mazzardm_regular !important;
+    }
+
+}

@@ -1,0 +1,331 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,600,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;    
+    @include m-regular;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    @include m-regular;
+    font-size: 16px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+p{
+    margin:0;
+    padding:0 !important;
+    line-height: 28px;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 20px;
+    margin:0 !important;
+    padding:0 !important;
+    line-height: 48px;
+}
+h3{
+    font-size: 18px;
+}
+a{
+        cursor: pointer;
+    img{
+        width: 100%;
+    }
+}
+strong{
+}
+small {
+    font-size: 13px;
+}
+
+button,
+input,
+select,
+a {
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+.owl-theme{
+    .owl-dots{
+        z-index: 99999;
+        margin-top: 42% !important;
+        width: 65%;
+        display: flex;
+        justify-content: flex-end;
+        top: 0;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+
+        .owl-dot{
+            width: 9px !important;
+            height: 9px !important;
+            margin:0 2px;
+            border: 0 none !important;
+            outline: 0;
+            span{
+                width: 9px !important;
+                height: 9px !important;
+                background: #404040 !important;
+
+            }
+            
+            &.active{
+                span{
+                background: $orange !important;}
+            }
+        }
+    }
+    .owl-nav{
+        z-index: 99999;
+        margin-top: -47% !important;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        top: 0;
+    
+            button{
+                @extend %f-flex;
+                @extend %f-all-center;
+                background: $gray !important;
+                width: 67px;
+                height: 67px;
+                border-radius: 50% !important;
+                border: 0 none !important;
+                outline: 0;
+                span{ 
+                    color:  $white;
+                    font-size: 16px !important;
+                }
+
+                &:hover{
+                    background: $orange !important;
+                }
+
+            }
+        }
+}
+
+@media #{$media-down-lg} {
+
+
+    .owl-theme{
+        .owl-dots{
+            margin-top: 40% !important;
+            }
+
+        .owl-nav{
+            margin-top: -50% !important;
+            
+            }
+        }
+}
+@media #{$media-down-nt} {
+
+
+    .owl-theme{
+        .owl-dots{
+            margin-top: 50% !important;
+            }
+        
+
+        .owl-nav{
+            margin-top: -70% !important;
+            
+            }
+        }
+}
+@media #{$media-down-md} {
+
+
+    .owl-theme{
+        .owl-dots{
+            margin-top: 50% !important;
+            display: none;
+            }
+        
+
+        .owl-nav{
+            margin-top: 0 !important;
+            justify-content: center;
+            }
+        }
+}
+
+
+@media #{$media-down-ssm} {
+
+    .owl-theme{
+        .owl-nav{
+            margin-top: -30px !important;
+            justify-content: center;
+
+            
+            button{
+                width: 37px;
+                height: 37px;
+                border-radius: 50% !important;
+                border: 0 none !important;
+                outline: 0;
+                span{ 
+                    color:  $white;
+                    font-size: 16px !important;
+                }
+
+                &:hover{
+                    background: $orange !important;
+                }
+
+            }
+            }
+        }
+
+}
