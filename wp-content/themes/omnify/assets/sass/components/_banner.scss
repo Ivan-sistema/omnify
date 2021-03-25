@@ -1,1 +1,7 @@
-section{}
+section{
+    &#banner{
+        @include container-full;
+        background: url('../images/banner/banner.png') center center no-repeat;
+        height: 1080px;
+    }
+}

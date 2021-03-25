@@ -1,10 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 *{
     margin: 0;
     padding: 0;    
-    @include m-regular;
+    font-family: 'Roboto', sans-serif;
 }
 html,
 body,
@@ -114,7 +113,7 @@ section {
 }
 
 body {
-    @include m-regular;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
 
@@ -158,6 +157,7 @@ h2{
     margin:0 !important;
     padding:0 !important;
     line-height: 48px;
+    font-family: 'Roboto', sans-serif;
 }
 h3{
     font-size: 18px;
@@ -220,7 +220,8 @@ img {
             
             &.active{
                 span{
-                background: $orange !important;}
+                background: $primary !important;
+            }
             }
         }
     }
@@ -235,7 +236,7 @@ img {
             button{
                 @extend %f-flex;
                 @extend %f-all-center;
-                background: $gray !important;
+                background: #ccc !important;
                 width: 67px;
                 height: 67px;
                 border-radius: 50% !important;
@@ -247,7 +248,7 @@ img {
                 }
 
                 &:hover{
-                    background: $orange !important;
+                    background: $primary !important;
                 }
 
             }
@@ -321,7 +322,7 @@ img {
                 }
 
                 &:hover{
-                    background: $orange !important;
+                    background: $primary !important;
                 }
 
             }

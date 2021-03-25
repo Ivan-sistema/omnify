@@ -11,21 +11,17 @@ input{
         margin: 20px 0;
         height: 40px;
         color: $white;
-        font-family: $mazzardm_regular;
     }
 
     &[type=submit]{
         border-radius:50px;
-        border: 1px solid $green;
         @extend %f-flex;
         @extend %f-all-center;
         height: 80px;
-        color: $green;
         width: 320px;
         margin: 20px 0;
         float: right;
         font-size: 23px;
-        font-family: $mazzardm_regular;
     }
 }
 
@@ -40,7 +36,6 @@ textarea{
         margin: 20px 0 !important;
         height: 40px;
         color: $white;
-        font-family: $mazzardm_regular;
 }
 
 @media #{$media-down-lg} {
@@ -54,9 +49,7 @@ textarea{
     
         &[type=submit]{
             border-radius:50px;
-            border: 1px solid $green;
             height: 60px;
-            color: $green;
             width: 320px;
             margin: 15px 0;
             float: right;
@@ -84,7 +77,6 @@ textarea{
             height: 40px;
             color: $white;
             font-size: 14px;
-            font-family: $mazzardm_regular;
         }
     
         &[type=submit]{
@@ -96,7 +88,6 @@ textarea{
             margin: 15px auto 0;
             float: right;
             font-size: 18px;
-            font-family: $mazzardm_regular;
             background: #1BD68F;
             float: none !important;
         }
@@ -108,7 +99,6 @@ textarea{
             margin: 10px 0 !important;
             height: 40px;
             font-size: 14px;
-            font-family: $mazzardm_regular !important;
     }
 
 }

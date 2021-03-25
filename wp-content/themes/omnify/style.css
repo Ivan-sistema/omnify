@@ -1,15 +1,15 @@
 /*
-Theme Name: REFORMARQ
-Author: UX/UI - Ellen Monike | Developer - Ivan dos santos
+Theme Name: OMNIFY
+Author:  Developer - Ivan dos santos
 Author URI: http://agenciamissaoweb.com.br | http://helptask.com.br
-Description: Tema desenvolvido para empresa REFORMARQ
+Description: Tema desenvolvido para empresa OMNIFY
 Version: 1.0
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-body { 
-    font-family: 'Roboto Slab' !important;
-    font-weight: 400;
-    font-size: 14px;
-    background: #080000 !important;
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: 'Roboto', sans-serif;
 }
