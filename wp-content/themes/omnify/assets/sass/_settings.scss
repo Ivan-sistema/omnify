@@ -1,0 +1,70 @@
+/*colors*/
+$white: #fff;
+$primary: #11294B;
+
+/* Presettings */
+$size-14: 14px;
+$size-16: 16px;
+$size-18: 18px;
+$size-20: 20px;
+$size-23: 23px;
+$size-30: 30px;
+$size-35: 35px;
+$size-45: 45px;
+$size-65: 65px;
+$size-70: 70px;
+/* Responsive breakpoints */
+$media-down-ssm: "only screen and (max-width : 380px)";
+$media-up-ssm: "only screen and (min-width : 381px)";
+$media-down-sm: "only screen and (max-width : 480px)";
+$media-up-sm: "only screen and (min-width : 481px)";
+$media-down-md: "only screen and (max-width : 900px)";
+$media-up-md: "only screen and (min-width : 901px)";
+$media-down-lg: "only screen and (max-width : 1280px)";
+$media-up-lg: "only screen and (min-width : 1281px)";
+$media-down-nt: "only screen and (max-width : 1124px)";
+$media-up-nt: "only screen and (min-width : 1124px)";
+/* how to use
+    @media #{$media-down-md} {
+        width: 100%;
+    }
+*/
+.uppercase{
+    @include uppercase;
+}
+.mobile{
+    display: none;
+}
+/* none */
+$none: none;
+
+%upper{
+    text-transform: uppercase;
+}
+
+%f-flex{display: flex;}
+%f-columns{flex-direction: column;}
+%f-between{justify-content: space-between;}
+%f-around{justify-content: space-around;}
+%f-center{justify-content: center;}
+%f-jcenter{justify-content: center;}
+%f-jstart{justify-content: start;}
+%f-jend{justify-content: flex-end;}
+%f-align-center{align-items: center;}
+%f-align-start{align-items: flex-start;}
+%f-flex-3{flex: 3;}
+%f-flex-2{flex: 2;}
+%f-flex-1{flex: 1;}
+%f-all-center{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container{
+    @include container;
+    
+}
+.container-full{
+    @include container-full;
+}

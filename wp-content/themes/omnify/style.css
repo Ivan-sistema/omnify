@@ -1,0 +1,15 @@
+/*
+Theme Name: REFORMARQ
+Author: UX/UI - Ellen Monike | Developer - Ivan dos santos
+Author URI: http://agenciamissaoweb.com.br | http://helptask.com.br
+Description: Tema desenvolvido para empresa REFORMARQ
+Version: 1.0
+*/
+
+
+body { 
+    font-family: 'Roboto Slab' !important;
+    font-weight: 400;
+    font-size: 14px;
+    background: #080000 !important;
+}
