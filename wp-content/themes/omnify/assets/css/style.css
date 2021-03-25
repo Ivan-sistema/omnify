@@ -18,16 +18,25 @@
   display: none; }
 
 /* none */
-.owl-theme .owl-nav button, input[type=submit], section#header, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav, section#header .header-content .action__nav ul, section#header .header-content .action__search, section#header .header-content .action__button {
+.owl-theme .owl-nav button, input[type=submit], section#header, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav, section#header .header-content .action__nav ul, section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, section#banner, section#banner .b_headline {
   display: flex; }
+
+section#banner .b_headline {
+  flex-direction: column; }
 
 section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav ul {
   justify-content: space-between; }
 
-section#header .header-content, section#header .header-content .action {
+section#banner, section#banner .b_headline {
+  justify-content: center; }
+
+section#header .header-content, section#header .header-content .action, section#banner .b_headline {
   align-items: center; }
 
-.owl-theme .owl-nav button, input[type=submit], section#header .header-content .action__search, section#header .header-content .action__button {
+section#banner {
+  align-items: flex-end; }
+
+.owl-theme .owl-nav button, input[type=submit], section#header .header-content .action__search, section#header .header-content .action__button, .btn-all {
   justify-content: center;
   align-items: center;
   text-align: center; }
@@ -430,6 +439,16 @@ section#header {
           text-transform: uppercase;
           font-weight: 900; }
 
+.btn-all {
+  border-radius: 25px; }
+  .btn-all__primary {
+    background: #B41F84;
+    color: #fff;
+    width: 122px;
+    height: 49px; }
+    .btn-all__primary:hover {
+      color: #fff; }
+
 section#banner {
   width: 100%;
   max-width: 100%;
@@ -437,3 +456,21 @@ section#banner {
   position: relative;
   background: url("../images/banner/banner.png") center center no-repeat;
   height: 1080px; }
+  section#banner .b_headline {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 91px; }
+    section#banner .b_headline h2 {
+      font-weight: 900;
+      font-size: 82px;
+      color: #fff; }
+    section#banner .b_headline p {
+      font-size: 28px;
+      color: #fff;
+      max-width: 780px;
+      font-weight: 300;
+      margin: 16.77px 0 25px; }
+    section#banner .b_headline a {
+      font-weight: 900;
+      font-size: 16px;
+      font-style: italic; }

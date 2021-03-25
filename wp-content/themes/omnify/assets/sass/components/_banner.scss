@@ -1,7 +1,39 @@
 section{
     &#banner{
+        @extend %f-flex;
+        @extend %f-align-end;
+        @extend %f-jcenter;
         @include container-full;
         background: url('../images/banner/banner.png') center center no-repeat;
         height: 1080px;
+
+        .b_headline{
+            @extend %f-flex;
+            @extend %f-jcenter;
+            @extend %f-align-center;
+            @extend %f-column;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 91px;
+            
+            h2{
+                @include font-bold;
+                font-size: 82px;
+                color: $white;
+            }
+            p{
+                font-size: 28px;
+                color: $white;
+                max-width: 780px;
+                @include font-light;
+                margin: 16.77px 0 25px;
+            }
+            a{
+                @include font-bold;
+                font-size: $size-16;
+                font-style: italic;
+            }
+
+        }
     }
 }
