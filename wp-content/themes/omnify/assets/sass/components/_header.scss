@@ -1,1 +1,105 @@
- section{}
+ section{
+     &#header{
+        @extend %f-flex;
+        background: $white;
+         width: 100%;
+         height: 105px;
+         box-shadow: 0px 3px 6px #00000029;
+         @include p-fixed;
+         z-index: 9999;
+
+         .header{
+             &-content{
+                 @include container;
+                 @extend %f-flex;
+                 @extend %f-align-center;
+                 @extend %f-between;
+                &__logotipo{
+                    h2{
+                        color: #13284b;
+                        @include font-bold;
+                        font-family: 'Roboto' !important;
+                        font-size: 50px;
+                    }
+                }
+                
+                .action{
+                    @extend %f-flex;
+                    @extend %f-align-center;
+                    @extend %f-between;
+                    width: 1009px;
+                    &__nav{
+                        @extend %f-flex;
+                        width: 685px;
+                        ul{
+                            @include config;
+                            @extend %f-flex;
+                            @extend %f-between;
+                            width: 100%;
+                            margin:0;
+                            padding: 0;
+                            li{
+                                float: left;
+                                a{
+                                    @include font-light;
+                                    font-size: $size-16;
+                                    color: $primary;
+                                }
+                                .ul-container{
+                                    display: none;
+                                    @include p-fixed;
+                                    background: $white;
+                                    width: 1132px;
+                                    margin-left: -600px;
+                                    margin-top: -6px;
+                                    height: 463px;
+
+                                    &__content{
+                                        width: 100%;
+                                        height: 416px;
+                                        background: $primary;
+                                        margin-top: 47px;
+                                    }
+                                }    
+
+                                &:hover{
+                                    .ul-container{
+                                        display: flex;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &__search{
+                        @extend %f-flex;
+                        @extend %f-all-center;
+                        width: 171px;
+                        i{
+                            font-size: $size-16;
+                            color: $primary;
+                            cursor: pointer;
+                        }
+                    }
+                    &__button{
+                        @extend %f-flex;
+                        @extend %f-all-center;
+                        width: 154px;
+                        height: 40px;
+                        background: $primary;
+                        border-radius: 4px;
+                            a{
+                                color: $white;
+                                font-size: $size-16;
+                                @include uppercase;
+                                @include font-bold;
+                                
+                            }
+                    }
+
+                }
+
+             }
+	
+         }
+     }
+ }

@@ -1,0 +1,16 @@
+.btn-all{
+    border-radius: 25px;
+    @extend %f-flex;
+    @extend %f-all-center;
+    &__primary{
+        background: $btn__primary;
+        color: $white;
+        width: 122px;
+        height: 49px;
+
+        &:hover{
+            color: $white;
+        }
+        
+    }
+}
