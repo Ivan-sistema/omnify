@@ -1,0 +1,77 @@
+section{
+    &#innovation{
+        @include container-full;
+        height: 1080px;
+        padding: 114px 0 136.18px;
+
+        .innovation-container{
+            @include container;
+            @extend %f-flex;
+            @extend %f-column;
+            @extend %f-between;
+            height: 100%;
+            &__header{
+                @include container-full;
+                @extend %f-flex;
+                @extend %f-column;
+                max-width: 50%;
+                h2{
+                    @include title-section;
+                    color: $white;
+                    text-align: left;
+                }
+                p{ 
+                    font-size: 28px;
+                    line-height: 37px;
+                    @include font-light;
+                    color: $white;
+                    @include margin(18.51px, 0, 18px, 0);
+                }
+                small{
+                    font-size: $size-18;
+                    line-height: 24px;
+                    @include font-bold;
+                    color: $white;
+
+                }
+            }
+            &__footer{
+                @include container-full;
+                @extend %f-flex;
+                @extend %f-between;
+                .certification{
+                    p{ 
+                        font-size: 16px;
+                        line-height: 21px;
+                        @include font-regular;
+                        color: #f2f2f2;
+                    }
+                }
+                .certification-r{
+                    text-align: right;   
+                    max-width: 29%;
+                    img{
+                        margin-bottom: 17.62px;
+                    }
+                    p{ 
+                        font-size: 16px;
+                        line-height: 21px;
+                        @include font-regular;
+                        color: #f2f2f2;
+                        a{
+                            text-decoration: underline;
+                            color: #f2f2f2;
+                            font-size: 16px;
+                            line-height: 21px;
+                            @include font-regular;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+    &.bg-innovation{
+        background-size: contain !important;
+    }
+}
