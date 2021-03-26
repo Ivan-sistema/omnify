@@ -1,0 +1,104 @@
+section{
+    &#service{
+        @include container-full;
+
+        .service-container{
+            @include container;
+            @extend %f-flex;
+            @extend %f-column;
+
+            &__content{
+                @include config;
+                @extend %f-flex;
+                @extend %f-between;
+                width: 1512px;
+                margin:0 auto;
+                .service-box{
+                    width: 33%;
+                    @extend %f-flex;
+                    @extend %f-column;
+                    @extend %f-all-center;
+
+                    h2{
+                        color: $primary;
+                        line-height: 48px;
+                        @include font-light;
+                        font-size: 36px;
+                        @include margin(55.51px, 0, 16px, 0);
+                    }
+                    p{
+                        color: $primary;
+                        line-height: 21px;
+                        @include font-light;
+                        font-size: $size-16;
+                    }
+                }
+            }
+            &__footer{
+                @include config;
+                @extend %f-flex;
+                @extend %f-jcenter;
+                padding: 100px 0;
+            }
+        }
+    }
+
+    &#markets{
+        @include container-full;
+        padding-bottom: 181px;
+
+        .markets-container{
+            @include container-new;
+            &__header{
+                width: 100%;
+                @include config;
+                @extend %f-flex;
+                @extend %f-jcenter;
+                padding: 66px 0;
+                h2{
+                    @include title-section 
+                }
+            }
+            &__content{
+                width: 100%;
+                @include config;
+                @extend %f-flex;
+                @extend %f-between;
+
+                .markets-box{
+                    width: 462px;
+                    height: 800px;
+                    background-size: cover;
+                    display: flex;
+                    flex-direction: column;
+                    @extend %f-jend;
+                    padding-left: 48px;
+                    padding-bottom: 55.63;
+
+                    &__margin-50{
+                        margin-top: 50px;
+                    }
+                    h2{
+                        font-size: 52px;
+                        @include font-bold;
+                        color: $white;
+                        line-height: 68px;
+                    }
+                    p{
+                        color: $white;
+                        @include font-bold;
+                        display: flex;
+                        align-items: center;
+                        a{ 
+                            margin-left: 10px;
+                            i{
+                                color: #B41F84;
+                                font-size: $size-18;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

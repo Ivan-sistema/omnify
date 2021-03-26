@@ -39,6 +39,13 @@
     overflow: hidden;
     margin: 0 auto;
 }
+
+@mixin container-new(){
+    width: calc(100% - 15px);
+    overflow: hidden;
+    margin: 0 auto;
+}
+
 @mixin config(){
     float: left;
     position: relative;
@@ -49,4 +56,13 @@
 }
 
 @mixin title-section (){
+    font-size: 52px;
+    color: $primary;
+    text-align: center;
+    @include font-bold();
+    float: right;
+}
+
+@mixin margin ($top, $right, $bottom, $left){
+    margin: $top $right $bottom $left !important;
 }

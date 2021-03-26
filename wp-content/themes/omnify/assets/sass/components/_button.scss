@@ -13,4 +13,16 @@
         }
         
     }
+    &--outline{
+        background-color: transparent;
+        border: 2px solid $btn__primary;
+        color: $btn__primary;
+        font-size: $size-16;
+        width: 122px;
+        height: 49px;
+        @include font-bold;
+        &:hover{
+            color: $btn__primary;
+        }
+    }
 }
