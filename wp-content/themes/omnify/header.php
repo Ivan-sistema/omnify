@@ -17,7 +17,8 @@
 
 	<div class="header-content">
 		<div class="header-content__logotipo">
-			<h2>Omnify</h2>
+			<h1>
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logotipo.png"></h1>
 		</div>
 
 		<div class="action">
