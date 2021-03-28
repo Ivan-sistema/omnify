@@ -1,0 +1,47 @@
+.item {
+    &#carousel{
+      background: transparent;
+      padding: 0;      
+      height: 271px;
+
+      .post__description{
+        width: 100%;
+        margin: 32px 0 0;
+        p{
+          color: $primary;
+          line-height: 21px;
+          font-size: $size-16;
+          font-style: italic;
+        }
+      }
+      .post__user{
+        width: 100%;
+        margin: 24px 0 0;
+        @extend %f-flex;
+        @extend %f-align-center;
+        i{
+          @extend %f-flex;
+          @extend %f-all-center;
+          height: 76px;
+          width: 76px;
+          background: $primary ;
+          color: #f2f2f2;
+          border-radius: 50%;
+          font-size: 52px;  
+        }
+        hr{
+          color: $secondary;
+          width: 17px;
+          border: 3px solid $secondary;
+          @include margin(0, 13px, 0, 24px);
+        }
+        p{
+          color: $primary;
+          line-height: 24px;
+          font-size: $size-18;
+          @include font-bold;
+          margin-bottom: 0;
+        }
+      }
+    }
+}
