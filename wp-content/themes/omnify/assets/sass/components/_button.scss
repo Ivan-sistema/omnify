@@ -21,8 +21,26 @@
         width: 122px;
         height: 49px;
         @include font-bold;
+        transition: 1s all;
+        &:hover{
+            color: $white;
+            background-color: $btn__primary;
+
+        }
+    }
+    &--outline-light{
+        background-color: transparent;
+        border: 2px solid white;
+        color: $white;
+        font-size: $size-16;
+        width: 122px;
+        height: 49px;
+        @include font-bold;
+        transition: 1s all;
         &:hover{
             color: $btn__primary;
+            background-color: $white;
+
         }
     }
 }
