@@ -1,0 +1,92 @@
+section{
+    &#blog{
+        @include container-full;
+    }
+    .blog{
+        &-container{
+            @include container-new;
+            padding: 0 0 112px 0;
+
+            &__header{
+                width: 100%;
+                @extend %f-flex;
+                @extend %f-all-center;
+
+                h2{
+                    @include title-section 
+                }
+            }
+            &__content{
+                margin-top:66px;
+                width: 100%;
+                @extend %f-flex;
+                @extend %f-between;
+                .blog-box{
+                    @extend %f-flex;
+                    @extend %f-column;
+                    @extend %f-jend;
+                    width: 619px;
+                    height: 485px;
+                    padding:0 0 34px 50px;
+                    &-center{
+                        margin-top: 22px;
+                    }
+                    h2{
+                        @include title-section;
+                        color: $white;
+                        line-height: 68px;
+                        text-align: left;
+                    }
+                    p{
+                        color: $white;
+                        line-height: 21px;
+                        @include margin-vh(14px,0);
+                        max-width: 390px;
+                        a{
+                            @include font-bold;
+                            
+                            i{
+                                color: #B41F84;
+                                font-size: $size-18;
+                                margin-left: 17px;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+
+                    span{
+                        color: $white;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+                        @include font-bold;
+                        a{
+                            
+                            i{
+                                color: #B41F84;
+                                font-size: $size-18;
+                                margin-left: 17px;
+                            }
+                        }
+                    }
+
+                }
+            }
+            &__footer{
+                @extend %f-flex;
+                @extend %f-all-center;
+                @extend %f-column;
+                width: 100%;
+                max-width: 967px;
+                text-align: center;
+                margin: 0 auto;
+                p{
+                    @include margin-vh (50px, 0);
+                    padding: 0 38px !important;
+                }
+
+                a{}
+            }
+        }
+    }
+}

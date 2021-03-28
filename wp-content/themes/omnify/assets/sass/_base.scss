@@ -147,13 +147,13 @@ table {
 p{
     margin:0;
     padding:0 !important;
-    line-height: 28px;
+    line-height: 21px;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 25px;
 }
 h2{
-    font-size: 20px;
     margin:0 !important;
     padding:0 !important;
     line-height: 48px;
@@ -163,6 +163,7 @@ h3{
     font-size: 18px;
 }
 a{
+    font-family: 'Roboto', sans-serif;
         cursor: pointer;
     img{
         width: 100%;
@@ -172,6 +173,10 @@ strong{
 }
 small {
     font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+span {
+    font-family: 'Roboto', sans-serif;
 }
 
 button,
@@ -196,42 +201,43 @@ img {
 }
 .owl-theme{
     .owl-dots{
+        display: none;
         z-index: 99999;
-        margin-top: 42% !important;
         width: 65%;
         display: flex;
-        justify-content: flex-end;
         top: 0;
         text-align: center;
         -webkit-tap-highlight-color: transparent;
 
         .owl-dot{
-            width: 9px !important;
-            height: 9px !important;
-            margin:0 2px;
-            border: 0 none !important;
+            width: 14px !important;
+            height: 14px !important;
+            margin:0 7px;
+            border: none;
             outline: 0;
             span{
-                width: 9px !important;
-                height: 9px !important;
-                background: #404040 !important;
+                width: 14px !important;
+                height: 14px !important;
+                background: #748AAC !important;
 
             }
             
             &.active{
+                border: none;
                 span{
                 background: $primary !important;
+                border: none;
             }
             }
         }
     }
     .owl-nav{
         z-index: 99999;
-        margin-top: -47% !important;
         width: 100%;
-        display: flex;
+        display: none;
         justify-content: flex-end;
         top: 0;
+
     
             button{
                 @extend %f-flex;

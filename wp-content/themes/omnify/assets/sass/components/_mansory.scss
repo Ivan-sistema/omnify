@@ -1,0 +1,58 @@
+  .masonry {
+    max-width: 100%;
+    column-gap: 0;
+  }
+  
+  /* The Masonry Brick */
+  .item {
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    img{
+        filter: saturate(100%);
+    }
+    &:hover{
+        img{
+            filter: saturate(80%) invert(6%)  ;
+        }
+        p{}
+    }
+    .legend{
+        width: 90%;
+        margin: -70px auto 0;
+        position: relative;
+        h3{
+            color: $white;
+            font-size: $size-20;
+            @include font-bold;
+            line-height: 0;
+        }
+        p{
+            color: $white;
+            @include font-light;
+        }
+
+    }
+    
+  }
+  
+  /* Masonry on large screens */
+  @media only screen and (min-width: 1024px) {
+    .masonry {
+      column-count: 4;
+    }
+  }
+  
+  /* Masonry on medium-sized screens */
+  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+      column-count: 3;
+    }
+  }
+  
+  /* Masonry on small screens */
+  @media only screen and (max-width: 767px) and (min-width: 540px) {
+    .masonry {
+      column-count: 2;
+    }
+  }

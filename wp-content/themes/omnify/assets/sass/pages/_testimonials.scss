@@ -1,0 +1,41 @@
+section{
+    &#testimonial{
+        @include container-full;
+        padding: 62px 0 177px 0;
+        .testmonials-container{
+            @include container-new;
+            @extend %f-flex;
+            @extend %f-align-center;
+            .fix-image{
+                width: 1140px;
+                height: 800px;
+            }
+            .carousel{
+                width: 705px;
+                height: 642px;
+                background: #f2f2f2;
+                padding: 44px 106px 70px;
+                margin-left: -65px;
+
+                &__header{
+                    width: 100%;
+                    @extend %f-flex;
+                    @extend %f-column;
+                    h2{
+                        @include title-section;
+                        text-align: left;
+                    }
+                    img{
+                        margin-bottom: 50px;
+                        width: fit-content;
+                    }
+                }
+                &__content{
+                    width: 100%;
+                    @extend %f-flex;
+                    @extend %f-column;
+                }
+            }
+        }
+    }
+}

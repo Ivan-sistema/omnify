@@ -1,0 +1,53 @@
+section{
+    &#bestwork{
+        @include container-full;
+        padding: 189px 0 0 0;
+        .bestwork-container{
+            @include container-new;
+
+            &__header{
+                width: 100%;
+                @extend %f-flex;
+                @extend %f-all-center;
+
+                h2{
+                    @include title-section 
+                }
+            }
+
+            &__content{
+                width: 100%;
+                @include margin(62.12px , 0, 57.58px, 0);
+
+            }
+
+            &__footer{
+                width: 100%;
+                @extend %f-flex;
+                @extend %f-column;
+                .title-brands{
+                    width: 100%;
+                    @extend %f-flex;
+                    @extend %f-all-center;
+                    h3{
+                        @include title-section;
+                        font-size: 22px;
+                        line-height: 29px; 
+                    }
+                }
+                .logo-brands{
+                    width: 100%;
+                    @extend %f-flex;
+                    @extend %f-around;
+                    @extend %f-align-center;
+                    @extend %f-jcenter;
+                    margin-top: 49px;
+                    img{
+                        height: fit-content !important;
+                        margin: 0 25px;
+                    }
+                }
+            }
+        }
+    }
+}
