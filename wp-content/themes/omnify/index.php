@@ -8,5 +8,6 @@
 <?php get_template_part('template_parts/parts/bestwork'); ?>
 <?php get_template_part('template_parts/parts/testimonials'); ?>
 <?php get_template_part('template_parts/parts/blog'); ?>
+<?php get_template_part('template_parts/parts/contact'); ?>
 
 <?php get_footer(); ?>

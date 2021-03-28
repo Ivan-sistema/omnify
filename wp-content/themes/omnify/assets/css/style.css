@@ -18,13 +18,13 @@
   display: none; }
 
 /* none */
-.owl-theme .owl-nav button, section#about .about__container .matter, section#about .about__container .focus, section#about .about__container .focus__description, section#about .about__container .focus__description .desc, section#about .about__container .background, section#about .about__container .background__description, section#about .about__container .background__description .desc, section#service .service-container, section#service .service-container__content, section#service .service-container__content .service-box, section#service .service-container__footer, section#markets .markets-container__header, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__header, section#innovation .innovation-container__footer, section#bestwork .bestwork-container__header, section#bestwork .bestwork-container__footer, section#bestwork .bestwork-container__footer .title-brands, section#bestwork .bestwork-container__footer .logo-brands, section#testimonial .testmonials-container, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__header, section .blog-container__content, section .blog-container__content .blog-box, section .blog-container__footer, input[type=submit], section#header, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav, section#header .header-content .action__nav ul, section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, section#banner, section#banner .b_headline, .item#carousel .post__user, .item#carousel .post__user i {
+.owl-theme .owl-nav button, section#about .about__container .matter, section#about .about__container .focus, section#about .about__container .focus__description, section#about .about__container .focus__description .desc, section#about .about__container .background, section#about .about__container .background__description, section#about .about__container .background__description .desc, section#service .service-container, section#service .service-container__content, section#service .service-container__content .service-box, section#service .service-container__footer, section#markets .markets-container__header, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__header, section#innovation .innovation-container__footer, section#bestwork .bestwork-container__header, section#bestwork .bestwork-container__footer, section#bestwork .bestwork-container__footer .title-brands, section#bestwork .bestwork-container__footer .logo-brands, section#testimonial .testmonials-container, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__header, section .blog-container__content, section .blog-container__content .blog-box, section .blog-container__footer, section .contact-container, input[type=submit], section#header, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav, section#header .header-content .action__nav ul, section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, section#banner, section#banner .b_headline, .item#carousel .post__user, .item#carousel .post__user i, section .footer-container, section .copy-container {
   display: flex; }
 
-section#about .about__container .matter, section#about .about__container .focus__description .desc, section#about .about__container .background__description, section#about .about__container .background__description .desc, section#service .service-container, section#service .service-container__content .service-box, section#innovation .innovation-container, section#innovation .innovation-container__header, section#bestwork .bestwork-container__footer, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__content .blog-box, section .blog-container__footer, section#banner .b_headline {
+section#about .about__container .matter, section#about .about__container .focus__description .desc, section#about .about__container .background__description, section#about .about__container .background__description .desc, section#service .service-container, section#service .service-container__content .service-box, section#innovation .innovation-container, section#innovation .innovation-container__header, section#bestwork .bestwork-container__footer, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__content .blog-box, section .blog-container__footer, section .contact-container, section#banner .b_headline {
   flex-direction: column; }
 
-section#about .about__container .focus, section#about .about__container .background, section#service .service-container__content, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__footer, section .blog-container__content, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav ul {
+section#about .about__container .focus, section#about .about__container .background, section#service .service-container__content, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__footer, section .blog-container__content, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav ul, section .copy-container {
   justify-content: space-between; }
 
 section#bestwork .bestwork-container__footer .logo-brands {
@@ -36,13 +36,13 @@ section#about .about__container .matter, section#about .about__container .focus_
 section#markets .markets-container__content .markets-box, section .blog-container__content .blog-box {
   justify-content: flex-end; }
 
-section#about .about__container .focus__description, section#about .about__container .background__description, section#bestwork .bestwork-container__footer .logo-brands, section#testimonial .testmonials-container, section#header .header-content, section#header .header-content .action, section#banner .b_headline, .item#carousel .post__user {
+section#about .about__container .focus__description, section#about .about__container .background__description, section#bestwork .bestwork-container__footer .logo-brands, section#testimonial .testmonials-container, section#header .header-content, section#header .header-content .action, section#banner .b_headline, .item#carousel .post__user, section .copy-container {
   align-items: center; }
 
 section#banner {
   align-items: flex-end; }
 
-.owl-theme .owl-nav button, section#service .service-container__content .service-box, section#bestwork .bestwork-container__header, section#bestwork .bestwork-container__footer .title-brands, section .blog-container__header, section .blog-container__footer, input[type=submit], section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, .item#carousel .post__user i {
+.owl-theme .owl-nav button, section#service .service-container__content .service-box, section#bestwork .bestwork-container__header, section#bestwork .bestwork-container__footer .title-brands, section .blog-container__header, section .blog-container__footer, section .contact-container, input[type=submit], section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, .item#carousel .post__user i {
   justify-content: center;
   align-items: center;
   text-align: center; }
@@ -680,7 +680,33 @@ section .blog-container {
     margin: 0 auto; }
     section .blog-container__footer p {
       margin: 50px 0 !important;
-      padding: 0 38px !important; }
+      padding: 0 44px !important;
+      font-weight: 300; }
+
+section#contact {
+  width: 100%;
+  max-width: 100%;
+  float: left;
+  position: relative;
+  height: 600px; }
+section .contact-container {
+  padding: 128px 0 141px 0; }
+  section .contact-container h2 {
+    font-size: 52px;
+    color: #11294B;
+    text-align: center;
+    font-weight: 900;
+    float: right;
+    line-height: 68px;
+    color: #fff;
+    max-width: 996px; }
+  section .contact-container p {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 37px;
+    color: #fff;
+    max-width: 1520px;
+    margin: 14.38px 0 24.73px 0 !important; }
 
 input[type=text], input[type=email] {
   background: transparent;
@@ -834,9 +860,23 @@ section#header {
     font-size: 16px;
     width: 122px;
     height: 49px;
-    font-weight: 900; }
+    font-weight: 900;
+    transition: 1s all; }
     .btn-all--outline:hover {
-      color: #B41F84; }
+      color: #fff;
+      background-color: #B41F84; }
+  .btn-all--outline-light {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+    font-size: 16px;
+    width: 122px;
+    height: 49px;
+    font-weight: 900;
+    transition: 1s all; }
+    .btn-all--outline-light:hover {
+      color: #B41F84;
+      background-color: #fff; }
 
 section#banner {
   width: 100%;
@@ -935,3 +975,41 @@ section#banner {
       font-size: 18px;
       font-weight: 900;
       margin-bottom: 0; }
+
+section#footer {
+  width: 100%;
+  max-width: 100%;
+  float: left;
+  position: relative;
+  height: 267.74px;
+  background: #11294B; }
+section .footer-container {
+  width: calc(100% - 140px);
+  overflow: hidden;
+  margin: 0 auto; }
+
+section#copy {
+  width: 100%;
+  max-width: 100%;
+  float: left;
+  position: relative;
+  height: 45px;
+  background: #081A33; }
+section .copy-container {
+  width: calc(100% - 140px);
+  overflow: hidden;
+  margin: 0 auto;
+  height: 45px; }
+  section .copy-container__reserved small {
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    font-family: Arial; }
+  section .copy-container__terms a {
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    font-family: Arial;
+    text-transform: uppercase; }
+    section .copy-container__terms a:first-child {
+      margin-right: 67px; }

@@ -1,4 +1,54 @@
+section{
+    &#footer{
+        @include container-full;
+        height: 267.74px;
+        background: $primary;
+    }
+    .footer{
+        &-container{
+            @include container;
+            @extend %f-flex;
+        }
+    }
 
-@media #{$media-down-md} {
+}
+section{
+    &#copy{
+        @include container-full;
+        height: 45px;
+        background: #081A33;
+    }
+    .copy{
+        &-container{
+            @include container;
+            @extend %f-flex;
+            @extend %f-between;
+            @extend %f-align-center;
+            height: 45px;
+
+            &__reserved{
+                small{
+                    color: $white;
+                    font-size: 10px;
+                    line-height: 20px;
+                    font-family: Arial;
+                }
+            }
+            &__terms{
+                a{
+                    color: $white;
+                    font-size: 10px;
+                    line-height: 20px;
+                    font-family: Arial;
+                    @include uppercase;
+                   &:first-child{
+                       margin-right: 67px;
+                    }
+
+                }
+            }
+
+        }
+    }
 
 }

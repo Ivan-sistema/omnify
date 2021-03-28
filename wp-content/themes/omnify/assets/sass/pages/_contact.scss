@@ -1,0 +1,31 @@
+section{
+    &#contact{
+        @include container-full;
+        height: 600px;
+    }
+    .contact{
+        &-container{
+            @extend %f-flex;
+            @extend %f-all-center;
+            @extend %f-column;
+            padding: 128px 0 141px 0;
+
+            h2{
+                @include title-section;
+                line-height: 68px;
+                color: $white;
+                max-width: 996px;
+            }
+            p{
+                @include font-light;
+                font-size: 28px;
+                line-height: 37px;
+                color: $white;
+                max-width: 1520px;
+                @include margin (14.38px, 0, 24.73px, 0);
+            }
+            a{}
+        }
+    }
+
+}
