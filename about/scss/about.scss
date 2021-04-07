@@ -1,19 +1,20 @@
 * {
   margin:0;
   padding:0;
+  box-sizing: border-box;
+  font-family: roboto;
 }
 
 .about {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
   background-color: red;
-  background: url("./../../image/group-min.png");
+  background: url("./../../image/about-group-min.png");
   background-position: 100%;
-  font-family: roboto;
 
   &__topic {
     color: #009DFF;
@@ -60,5 +61,100 @@
       }
 
     }
+  }
+}
+
+.pionners {
+  width: 100%;
+  padding: 115px 200px;
+  text-align: center;
+
+  &__title {
+    font-size: 52px;
+    color: #11294B;
+    margin-bottom: 33px;
+  }
+  
+  &__subtitle {
+    font-size: 28px;
+    color: #11294B;
+  }
+
+  &__slide { // EXCLUIR CLASSE APÓS INSERIR SLIDE EM "Pionners"
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: grey;
+  }
+}
+
+.better {
+  padding: 211px 200px 177px;
+  display: flex;
+  align-items: center;
+
+  &__content {
+    padding-right: 114px;
+    
+    &--title {
+      color: #11294B;
+      font-size: 52px;
+      font-weight: 800;
+      margin-bottom: 28px;
+
+      &-creativity {
+        color: #B41F84;
+        font-style: italic;
+        margin-bottom: 0;
+      }
+    }
+
+    &--subtitle {
+      font-size: 28px;
+      color: #12284B;
+      margin-bottom: 28px;
+    }
+  }
+
+  &__years {
+    &--number {
+      font-size: 442px;
+    }
+
+    &--desc {
+      color: #B41F84;
+      position: relative;
+      top: -78px;
+      font-size: 52px;
+      font-weight: 800;
+    }
+  }
+
+  &__fpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: url("./../../image/about-fpo-min.png");
+    background-position: 100%;
+  }
+}
+
+.what-makes {
+  padding: 197px 329px 48px;
+  text-align: center;
+
+  &__title {
+    font-size: 52px;
+    color: #11294B;
+    margin-bottom: 33px;
+  }
+  
+  &__subtitle {
+    font-size: 28px;
+    color: #11294B;
   }
 }
