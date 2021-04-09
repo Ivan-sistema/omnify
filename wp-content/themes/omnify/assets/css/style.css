@@ -18,7 +18,7 @@
   display: none; }
 
 /* none */
-.owl-theme .owl-nav button, section#about .about__container .matter, section#about .about__container .focus, section#about .about__container .focus__description, section#about .about__container .focus__description .desc, section#about .about__container .background, section#about .about__container .background__description, section#about .about__container .background__description .desc, section#service .service-container, section#service .service-container__content, section#service .service-container__content .service-box, section#service .service-container__footer, section#markets .markets-container__header, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__header, section#innovation .innovation-container__footer, section#bestwork .bestwork-container__header, section#bestwork .bestwork-container__footer, section#bestwork .bestwork-container__footer .title-brands, section#bestwork .bestwork-container__footer .logo-brands, section#testimonial .testmonials-container, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__header, section .blog-container__content, section .blog-container__content .blog-box, section .blog-container__footer, section .contact-container, input[type=submit], section#header, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav, section#header .header-content .action__nav ul, section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, section#banner, section#banner .b_headline, .item#carousel .post__user, .item#carousel .post__user i, section .footer-container, section .copy-container {
+.owl-theme .owl-nav button, section#about .about__container .matter, section#about .about__container .focus, section#about .about__container .focus__description, section#about .about__container .focus__description .desc, section#about .about__container .background, section#about .about__container .background__description, section#about .about__container .background__description .desc, section#service .service-container, section#service .service-container__content, section#service .service-container__content .service-box, section#service .service-container__footer, section#markets .markets-container__header, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__header, section#innovation .innovation-container__footer, section#bestwork .bestwork-container__header, section#bestwork .bestwork-container__footer, section#bestwork .bestwork-container__footer .title-brands, section#bestwork .bestwork-container__footer .logo-brands, section .years-container, section#testimonial .testmonials-container, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__header, section .blog-container__content, section .blog-container__content .blog-box, section .blog-container__footer, section .contact-container, input[type=submit], section#header, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav, section#header .header-content .action__nav ul, section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, section#banner, section#banner .b_headline, .item#carousel .post__user, .item#carousel .post__user i, section .footer-container, section .copy-container {
   display: flex; }
 
 section#about .about__container .matter, section#about .about__container .focus__description .desc, section#about .about__container .background__description, section#about .about__container .background__description .desc, section#service .service-container, section#service .service-container__content .service-box, section#innovation .innovation-container, section#innovation .innovation-container__header, section#bestwork .bestwork-container__footer, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__content .blog-box, section .blog-container__footer, section .contact-container, section#banner .b_headline {
@@ -170,7 +170,8 @@ section {
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  background: #fffffe; }
 
 ol,
 ul {
@@ -546,7 +547,8 @@ section#bestwork {
   max-width: 100%;
   float: left;
   position: relative;
-  padding: 189px 0 0 0; }
+  padding: 189px 0 151px 0;
+  background: #fafafb; }
   section#bestwork .bestwork-container {
     width: calc(100% - 15px);
     overflow: hidden;
@@ -580,6 +582,24 @@ section#bestwork {
         section#bestwork .bestwork-container__footer .logo-brands img {
           height: fit-content !important;
           margin: 0 25px; }
+
+section#years {
+  width: 100%;
+  max-width: 100%;
+  float: left;
+  position: relative;
+  height: 1050px;
+  background: url("../images/bg-about.png") 25% 77% no-repeat; }
+section .years-container {
+  width: calc(100% - 140px);
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1540px; }
+  section .years-container__number {
+    width: 604px; }
+  section .years-container__description {
+    width: 889px;
+    padding-left: 58px; }
 
 section#testimonial {
   width: 100%;

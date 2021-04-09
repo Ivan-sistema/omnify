@@ -1,0 +1,22 @@
+section{
+    &#years{
+        @include container-full;
+        height: 1050px;
+        background: url('../images/bg-about.png') 25% 77%  no-repeat;
+    }
+    .years{
+        &-container{
+            @include container;
+            @extend %f-flex;
+            width: 1540px;
+
+            &__number{
+                width: 604px;
+            }
+            &__description{
+                width: 889px;
+                padding-left: 58px;
+            }
+        }
+    }
+}
