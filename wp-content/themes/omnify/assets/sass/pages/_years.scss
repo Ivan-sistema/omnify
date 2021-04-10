@@ -1,8 +1,8 @@
 section{
     &#years{
         @include container-full;
-        height: 1050px;
-        background: url('../images/bg-about.png') 25% 77%  no-repeat;
+        height: 1092px;
+        background: url(../images/bg-about.png) 25% 85% no-repeat;
     }
     .years{
         &-container{
@@ -14,8 +14,28 @@ section{
                 width: 604px;
             }
             &__description{
-                width: 889px;
-                padding-left: 58px;
+                width: 904px;
+                padding-left: 46px;
+                padding-top: 243px;
+
+
+                h2{
+                    @include font-bold;
+                    line-height: 152px;
+                    font-size: 110px;
+                    color: $secondary;
+                }
+                p{
+                    @include font-bold;
+                    font-size: 28px;
+                    line-height: 37px;
+                    color: $white;
+                    margin-top:245px;
+                }
+                a{
+                    margin-top: 46px;
+                    font-style: italic;
+                }
             }
         }
     }

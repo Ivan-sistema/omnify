@@ -35,13 +35,19 @@
 }
 
 @mixin container(){
-    width: calc(100% - 140px);
+    width: calc(100% - 280px);
     overflow: hidden;
     margin: 0 auto;
 }
 
 @mixin container-new(){
-    width: calc(100% - 15px);
+    width: calc(100% - 30px);
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+@mixin container-200(){
+    width: calc(100% - 400px);
     overflow: hidden;
     margin: 0 auto;
 }

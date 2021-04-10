@@ -74,5 +74,41 @@ owltestimonial.owlCarousel({
               }); 
 
 
+/*=============CAROUSEL PIONEERS==================*/
+var owlpioneers = $('.owl-carousel-pioneers');
+owlpioneers.owlCarousel({
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  dotsSpeed:true,
+  responsive: {
+                  0: {
+                    items: 1,
+                    nav:true
+                  },
+                  600: {
+                    items: 1,
+                    nav:true
+                  },
+                  960: {
+                    items: 1,
+                    nav:true
+                  },
+                  1200: {
+                    items: 1,
+                    nav:true
+                  }
+                }
+});
+   owlpioneers.on('.owl-stage' , 'mousewheel', function(e) {
+                if (e.deltaY > 0) {
+                  owlpioneers.trigger('next.owl');
+                } else {
+                  owlpioneers.trigger('prev.owl');
+                }
+                e.preventDefault();
+              }); 
+
+
 
 });

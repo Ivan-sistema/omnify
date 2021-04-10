@@ -4,7 +4,6 @@ section{
         @extend %f-align-end;
         @extend %f-jcenter;
         @include container-full;
-        background: url('../images/banner/banner.png') center center no-repeat;
         height: 1080px;
 
         .b_headline{
@@ -20,6 +19,7 @@ section{
                 @include font-bold;
                 font-size: 82px;
                 color: $white;
+                line-height: 92px;
             }
             p{
                 font-size: 28px;
@@ -27,6 +27,7 @@ section{
                 max-width: 780px;
                 @include font-light;
                 margin: 16.77px 0 25px;
+                line-height: 38px;
             }
             a{
                 @include font-bold;
@@ -36,4 +37,6 @@ section{
 
         }
     }
+
 }
+

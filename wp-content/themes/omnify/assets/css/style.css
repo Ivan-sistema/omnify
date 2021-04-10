@@ -18,28 +18,28 @@
   display: none; }
 
 /* none */
-.owl-theme .owl-nav button, section#about .about__container .matter, section#about .about__container .focus, section#about .about__container .focus__description, section#about .about__container .focus__description .desc, section#about .about__container .background, section#about .about__container .background__description, section#about .about__container .background__description .desc, section#service .service-container, section#service .service-container__content, section#service .service-container__content .service-box, section#service .service-container__footer, section#markets .markets-container__header, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__header, section#innovation .innovation-container__footer, section#bestwork .bestwork-container__header, section#bestwork .bestwork-container__footer, section#bestwork .bestwork-container__footer .title-brands, section#bestwork .bestwork-container__footer .logo-brands, section .years-container, section#testimonial .testmonials-container, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__header, section .blog-container__content, section .blog-container__content .blog-box, section .blog-container__footer, section .contact-container, input[type=submit], section#header, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav, section#header .header-content .action__nav ul, section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, section#banner, section#banner .b_headline, .item#carousel .post__user, .item#carousel .post__user i, section .footer-container, section .copy-container {
+.owl-theme .owl-nav button, section#about .about-home__container .matter, section#about .about-home__container .focus, section#about .about-home__container .focus__description, section#about .about-home__container .focus__description .desc, section#about .about-home__container .background, section#about .about-home__container .background__description, section#about .about-home__container .background__description .desc, section#about-banner .about-banner, section#about-banner .about-banner__content, section#about-better .better, section#about-better .better__content, section#about-better .better__content .description, section#about-better .better__content .years, section#about-how .how-we__content--topic-reverse, section#about-ethos, section#service .service-container, section#service .service-container__content, section#service .service-container__content .service-box, section#service .service-container__footer, section#markets .markets-container__header, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__header, section#innovation .innovation-container__footer, section#bestwork .bestwork-container__header, section#bestwork .bestwork-container__footer, section#bestwork .bestwork-container__footer .title-brands, section#bestwork .bestwork-container__footer .logo-brands, section .years-container, section#testimonial .testmonials-container, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__header, section .blog-container__content, section .blog-container__content .blog-box, section .blog-container__footer, section .contact-container, input[type=submit], section#header, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav, section#header .header-content .action__nav ul, section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, section#banner, section#banner .b_headline, .item#carousel .post__user, .item#carousel .post__user i, section .footer-container, section .copy-container {
   display: flex; }
 
-section#about .about__container .matter, section#about .about__container .focus__description .desc, section#about .about__container .background__description, section#about .about__container .background__description .desc, section#service .service-container, section#service .service-container__content .service-box, section#innovation .innovation-container, section#innovation .innovation-container__header, section#bestwork .bestwork-container__footer, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__content .blog-box, section .blog-container__footer, section .contact-container, section#banner .b_headline {
+section#about .about-home__container .matter, section#about .about-home__container .focus__description .desc, section#about .about-home__container .background__description, section#about .about-home__container .background__description .desc, section#about-banner .about-banner, section#about-banner .about-banner__content, section#about-better .better, section#about-better .better__content .years, section#service .service-container, section#service .service-container__content .service-box, section#innovation .innovation-container, section#innovation .innovation-container__header, section#bestwork .bestwork-container__footer, section#testimonial .testmonials-container .carousel__header, section#testimonial .testmonials-container .carousel__content, section .blog-container__content .blog-box, section .blog-container__footer, section .contact-container, section#banner .b_headline {
   flex-direction: column; }
 
-section#about .about__container .focus, section#about .about__container .background, section#service .service-container__content, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__footer, section .blog-container__content, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav ul, section .copy-container {
+section#about .about-home__container .focus, section#about .about-home__container .background, section#about-better .better__content, section#about-how .how-we__content--topic-reverse, section#service .service-container__content, section#markets .markets-container__content, section#innovation .innovation-container, section#innovation .innovation-container__footer, section .blog-container__content, section#header .header-content, section#header .header-content .action, section#header .header-content .action__nav ul, section .copy-container {
   justify-content: space-between; }
 
 section#bestwork .bestwork-container__footer .logo-brands {
   justify-content: space-around; }
 
-section#about .about__container .matter, section#about .about__container .focus__description, section#about .about__container .background__description, section#service .service-container__footer, section#markets .markets-container__header, section#bestwork .bestwork-container__footer .logo-brands, section#banner, section#banner .b_headline {
+section#about .about-home__container .matter, section#about .about-home__container .focus__description, section#about .about-home__container .background__description, section#service .service-container__footer, section#markets .markets-container__header, section#bestwork .bestwork-container__footer .logo-brands, section#banner, section#banner .b_headline {
   justify-content: center; }
 
-section#markets .markets-container__content .markets-box, section .blog-container__content .blog-box {
+section#about-banner .about-banner, section#markets .markets-container__content .markets-box, section .blog-container__content .blog-box {
   justify-content: flex-end; }
 
-section#about .about__container .focus__description, section#about .about__container .background__description, section#bestwork .bestwork-container__footer .logo-brands, section#testimonial .testmonials-container, section#header .header-content, section#header .header-content .action, section#banner .b_headline, .item#carousel .post__user, section .copy-container {
+section#about .about-home__container .focus__description, section#about .about-home__container .background__description, section#about-banner .about-banner__content, section#about-better .better__content .years, section#about-how .how-we__content--topic-reverse, section#about-ethos, section#bestwork .bestwork-container__footer .logo-brands, section#testimonial .testmonials-container, section#header .header-content, section#header .header-content .action, section#banner .b_headline, .item#carousel .post__user, section .copy-container {
   align-items: center; }
 
-section#banner {
+section#about-banner .about-banner, section#banner {
   align-items: flex-end; }
 
 .owl-theme .owl-nav button, section#service .service-container__content .service-box, section#bestwork .bestwork-container__header, section#bestwork .bestwork-container__footer .title-brands, section .blog-container__header, section .blog-container__footer, section .contact-container, input[type=submit], section#header .header-content .action__search, section#header .header-content .action__button, .btn-all, .item#carousel .post__user i {
@@ -48,7 +48,7 @@ section#banner {
   text-align: center; }
 
 .container {
-  width: calc(100% - 140px);
+  width: calc(100% - 280px);
   overflow: hidden;
   margin: 0 auto; }
 
@@ -321,41 +321,43 @@ section#about {
   max-width: 100%;
   float: left;
   position: relative;
-  margin: 149.41px 0 114px 0 !important; }
-  section#about .about__container {
-    width: calc(100% - 15px);
+  padding: 157px 0 114px 0; }
+  section#about .about-home__container {
+    width: calc(100% - 30px);
     overflow: hidden;
     margin: 0 auto; }
-    section#about .about__container .matter {
+    section#about .about-home__container .matter {
       width: 100%;
       text-align: center; }
-      section#about .about__container .matter h2 {
+      section#about .about-home__container .matter h2 {
         font-size: 52px;
         color: #11294B;
         text-align: center;
         font-weight: 900;
         float: right;
-        margin-bottom: 16px !important; }
-      section#about .about__container .matter p {
+        margin-bottom: 16px !important;
+        line-height: 68px; }
+      section#about .about-home__container .matter p {
         font-weight: 300;
         color: #11294B;
         font-size: 28px;
         letter-spacing: 0;
-        margin-bottom: 5px; }
-    section#about .about__container .focus {
+        margin-bottom: 0;
+        line-height: 37px; }
+    section#about .about-home__container .focus {
       width: 100%;
       max-width: 100%;
       float: left;
       position: relative;
       margin: 65.96px 0 16px 0 !important; }
-      section#about .about__container .focus__images {
+      section#about .about-home__container .focus__images {
         width: 1065px;
         float: left; }
-      section#about .about__container .focus__description {
+      section#about .about-home__container .focus__description {
         width: calc(100% - 1065px); }
-        section#about .about__container .focus__description .desc {
+        section#about .about-home__container .focus__description .desc {
           width: 496px; }
-          section#about .about__container .focus__description .desc h2 {
+          section#about .about-home__container .focus__description .desc h2 {
             font-size: 52px;
             color: #11294B;
             text-align: center;
@@ -363,23 +365,24 @@ section#about {
             float: right;
             margin-bottom: 16.77px !important;
             text-align: left; }
-          section#about .about__container .focus__description .desc p {
+          section#about .about-home__container .focus__description .desc p {
             font-weight: 300;
+            line-height: 37px;
             color: #11294B;
             font-size: 28px;
             letter-spacing: 0;
             margin-bottom: 5px; }
-    section#about .about__container .background {
-      width: calc(100% - 15px);
+    section#about .about-home__container .background {
+      width: calc(100% - 30px);
       overflow: hidden;
       margin: 0 auto; }
-      section#about .about__container .background__images {
+      section#about .about-home__container .background__images {
         width: 1063px; }
-      section#about .about__container .background__description {
+      section#about .about-home__container .background__description {
         width: calc(100% - 1063px); }
-        section#about .about__container .background__description .desc {
+        section#about .about-home__container .background__description .desc {
           width: 496px; }
-          section#about .about__container .background__description .desc h2 {
+          section#about .about-home__container .background__description .desc h2 {
             font-size: 52px;
             color: #11294B;
             text-align: center;
@@ -387,12 +390,399 @@ section#about {
             float: right;
             margin-bottom: 13.62px !important;
             text-align: left; }
-          section#about .about__container .background__description .desc p {
+          section#about .about-home__container .background__description .desc p {
             font-weight: 300;
             color: #11294B;
             font-size: 28px;
             letter-spacing: 0;
-            margin-bottom: 5px; }
+            margin-bottom: 5px;
+            line-height: 37px; }
+
+section {
+  width: 100%;
+  max-width: 100%;
+  float: left;
+  position: relative; }
+  section#about-banner .about-banner {
+    height: 1078px; }
+    section#about-banner .about-banner__topic {
+      color: #009DFF;
+      font-size: 200px;
+      -webkit-text-stroke-width: 4px;
+      -webkit-text-stroke-color: #fff;
+      margin: 0 auto; }
+    section#about-banner .about-banner__content {
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      padding: 83px 0 61px;
+      background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8)); }
+      section#about-banner .about-banner__content--title {
+        font-weight: 900;
+        font-size: 82px;
+        line-height: 108px;
+        color: #fff; }
+      section#about-banner .about-banner__content--subtitle {
+        width: 1008px; }
+        section#about-banner .about-banner__content--subtitle-desc {
+          font-weight: 300;
+          font-size: 28px;
+          line-height: 38px;
+          margin-top: 25px;
+          margin-bottom: 14px; }
+        section#about-banner .about-banner__content--subtitle-established {
+          font-weight: 300;
+          display: flex;
+          justify-content: center;
+          font-size: 22px;
+          line-height: 38px; }
+          section#about-banner .about-banner__content--subtitle-established-trace {
+            width: 20px;
+            height: 1px;
+            align-self: center;
+            margin: 0 20px;
+            background-color: #fff; }
+  section#about-pionners .pionners {
+    width: 100%;
+    padding: 115px 200px;
+    text-align: center; }
+    section#about-pionners .pionners__title {
+      font-weight: 900;
+      font-size: 52px;
+      line-height: 68px;
+      color: #11294B;
+      margin-bottom: 33px; }
+    section#about-pionners .pionners__subtitle {
+      font-weight: 300;
+      line-height: 37px;
+      font-size: 28px;
+      color: #11294B; }
+    section#about-pionners .pionners__slide {
+      width: calc(100% - 30px);
+      overflow: hidden;
+      margin: 0 auto;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      section#about-pionners .pionners__slide .owl-carousel-pioneers .owl-stage-outer {
+        height: 500px; }
+        section#about-pionners .pionners__slide .owl-carousel-pioneers .owl-stage-outer .owl-stage .owl-item .pionners_carousel .item .post__images {
+          width: 100%;
+          height: 500px; }
+      section#about-pionners .pionners__slide .owl-carousel-pioneers .owl-dots {
+        width: 100%;
+        display: flex !important;
+        margin-top: 442px;
+        position: absolute;
+        z-index: 999999;
+        align-items: center;
+        justify-content: center; }
+  section#about-better .better {
+    width: calc(100% - 400px);
+    overflow: hidden;
+    margin: 0 auto; }
+    section#about-better .better__content {
+      width: 100%;
+      padding: 101px 0 159px; }
+      section#about-better .better__content .description {
+        width: 910px;
+        height: 583px;
+        justify-content: flex-end;
+        flex-direction: column; }
+        section#about-better .better__content .description h2 {
+          color: #11294B;
+          font-weight: 900;
+          font-size: 52px;
+          line-height: 58px;
+          margin-bottom: 14px; }
+          section#about-better .better__content .description h2 span {
+            color: #B41F84;
+            font-style: italic;
+            margin-bottom: 0; }
+        section#about-better .better__content .description p {
+          font-weight: 300;
+          font-size: 28px;
+          line-height: 37px;
+          color: #11294B;
+          margin-bottom: 28px; }
+      section#about-better .better__content .years--number {
+        font-weight: 700;
+        color: #11294B;
+        font-size: 442px;
+        line-height: 583px;
+        margin-top: -20px; }
+      section#about-better .better__content .years--desc {
+        font-weight: 900;
+        color: #B41F84;
+        font-size: 64px;
+        line-height: 84px;
+        margin-top: -90px; }
+  section#about-fpo {
+    width: calc(100% - 30px);
+    overflow: hidden;
+    margin: 0 auto;
+    margin: 0 15px !important; }
+    section#about-fpo .fpo {
+      height: 500px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+      section#about-fpo .fpo__topic {
+        color: #009DFF;
+        font-size: 200px;
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-stroke-color: #fff;
+        margin: 0 auto; }
+  section#about-what-makes {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    position: relative; }
+    section#about-what-makes .what-makes {
+      width: calc(100% - 30px);
+      overflow: hidden;
+      margin: 0 auto; }
+      section#about-what-makes .what-makes__content {
+        padding: 197px 0 48px;
+        text-align: center;
+        max-width: 70%;
+        width: 100%;
+        margin: 0 auto; }
+        section#about-what-makes .what-makes__content--title {
+          font-weight: 900;
+          line-height: 58px;
+          font-size: 52px;
+          color: #11294B;
+          margin-bottom: 14px; }
+        section#about-what-makes .what-makes__content--subtitle {
+          font-size: 28px;
+          color: #11294B;
+          line-height: 37px; }
+      section#about-what-makes .what-makes__topics-left {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px; }
+        section#about-what-makes .what-makes__topics-left--reverse {
+          flex-direction: row-reverse; }
+        section#about-what-makes .what-makes__topics-left--content {
+          padding: 0 150px 0 70px; }
+          section#about-what-makes .what-makes__topics-left--content-title {
+            font-weight: 900;
+            font-size: 52px;
+            color: #11294B; }
+          section#about-what-makes .what-makes__topics-left--content-desc {
+            font-weight: 300;
+            line-height: 38px;
+            font-size: 28px;
+            margin-top: 17px;
+            margin-bottom: 50px; }
+          section#about-what-makes .what-makes__topics-left--content-button {
+            border: 2px solid #B41F84;
+            color: #B41F84;
+            border-radius: 25px;
+            padding: 14px 37px;
+            margin-top: 50px;
+            background-color: transparent;
+            cursor: pointer; }
+  section#about-how {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    position: relative; }
+    section#about-how .how-we {
+      width: calc(100% - 400px);
+      overflow: hidden;
+      margin: 0 auto;
+      padding: 224px 0 0; }
+      section#about-how .how-we__content--title {
+        font-weight: 900;
+        font-size: 52px;
+        line-height: 58px;
+        color: #11294B;
+        margin-bottom: 15px;
+        text-align: center; }
+      section#about-how .how-we__content--subtitle {
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 38px;
+        color: #11294B;
+        margin-bottom: 100px;
+        text-align: center; }
+      section#about-how .how-we__content--topic {
+        display: flex;
+        align-items: center;
+        margin-bottom: 105px; }
+        section#about-how .how-we__content--topic-reverse {
+          flex-direction: row-reverse;
+          margin-bottom: 105px; }
+        section#about-how .how-we__content--topic-image-block {
+          display: grid;
+          gap: 10px;
+          width: 733px;
+          height: 566px;
+          grid-template-areas: "one two three" "one five five" "four five five"; }
+          section#about-how .how-we__content--topic-image-block img {
+            filter: saturate(100%); }
+            section#about-how .how-we__content--topic-image-block img:hover {
+              filter: saturate(80%) invert(10%); }
+          section#about-how .how-we__content--topic-image-block-custom {
+            display: grid;
+            gap: 10px;
+            width: 751px;
+            height: 567px;
+            grid-template-areas: "one two" "one three"; }
+            section#about-how .how-we__content--topic-image-block-custom img {
+              filter: saturate(100%); }
+              section#about-how .how-we__content--topic-image-block-custom img:hover {
+                filter: saturate(80%) invert(10%); }
+            section#about-how .how-we__content--topic-image-block-custom-1 {
+              width: 303px;
+              height: 367px;
+              grid-area: one; }
+            section#about-how .how-we__content--topic-image-block-custom-2 {
+              width: 438px;
+              height: 224px;
+              grid-area: two; }
+            section#about-how .how-we__content--topic-image-block-custom-3 {
+              width: 438px;
+              height: 332px;
+              grid-area: three; }
+            section#about-how .how-we__content--topic-image-block-custom-two {
+              display: grid;
+              gap: 10px;
+              width: 751px;
+              height: 567px;
+              grid-template-areas: "one two" "three two"; }
+              section#about-how .how-we__content--topic-image-block-custom-two img {
+                filter: saturate(100%); }
+                section#about-how .how-we__content--topic-image-block-custom-two img:hover {
+                  filter: saturate(80%) invert(10%); }
+              section#about-how .how-we__content--topic-image-block-custom-two-1 {
+                width: 303px;
+                height: 329px;
+                grid-area: one;
+                background-color: #F2F2F2; }
+              section#about-how .how-we__content--topic-image-block-custom-two-2 {
+                width: 438px;
+                height: 568px;
+                grid-area: two; }
+              section#about-how .how-we__content--topic-image-block-custom-two-3 {
+                width: 303px;
+                height: 228px;
+                grid-area: three; }
+          section#about-how .how-we__content--topic-image-block-1 {
+            width: 303px;
+            height: 329px;
+            grid-area: one; }
+          section#about-how .how-we__content--topic-image-block-2 {
+            width: 214px;
+            height: 224px;
+            grid-area: two; }
+          section#about-how .how-we__content--topic-image-block-3 {
+            width: 214px;
+            height: 224px;
+            grid-area: three; }
+          section#about-how .how-we__content--topic-image-block-4 {
+            width: 303px;
+            height: 227px;
+            grid-area: four; }
+          section#about-how .how-we__content--topic-image-block-5 {
+            width: 438px;
+            height: 333px;
+            grid-area: five; }
+        section#about-how .how-we__content--topic-desc {
+          padding-left: 114px;
+          max-width: 617px; }
+          section#about-how .how-we__content--topic-desc-reverse {
+            padding-right: 114px; }
+          section#about-how .how-we__content--topic-desc-title {
+            font-weight: 900;
+            line-height: 58px;
+            font-size: 52px;
+            color: #11294B;
+            margin-bottom: 7.54px; }
+          section#about-how .how-we__content--topic-desc-subtitle {
+            font-weight: 300;
+            font-size: 28px;
+            line-height: 37px;
+            color: #11294B; }
+            section#about-how .how-we__content--topic-desc-subtitle-obs {
+              font-weight: 900;
+              font-size: 22px;
+              line-height: 29px;
+              color: #11294B; }
+  section#about-ethos {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    position: relative;
+    height: 763px;
+    background-color: #000000;
+    justify-content: start;
+    background-repeat: no-repeat;
+    background-position: right; }
+    section#about-ethos .our-ethos {
+      width: calc(100% - 400px);
+      overflow: hidden;
+      margin: 0 auto; }
+      section#about-ethos .our-ethos__desc {
+        width: 634px; }
+        section#about-ethos .our-ethos__desc-title {
+          font-weight: 900;
+          font-size: 52px;
+          line-height: 58px;
+          color: #fff;
+          margin-bottom: 26px; }
+        section#about-ethos .our-ethos__desc-subtitle {
+          font-weight: 300;
+          font-size: 28px;
+          line-height: 37px;
+          color: #fff; }
+          section#about-ethos .our-ethos__desc-subtitle-italic {
+            font-weight: 300;
+            font-size: 28px;
+            line-height: 37px;
+            color: #fff;
+            font-style: italic; }
+          section#about-ethos .our-ethos__desc-subtitle-obs {
+            font-size: 28px;
+            color: #FFFFFF;
+            font-style: italic; }
+
+.heave-a-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  background: url("./../../image/heave-a-project-min.png");
+  background-repeat: no-repeat;
+  background-position: right; }
+  @media screen and (min-width: 2560px) {
+    .heave-a-project {
+      background: url("./../../image/heave-a-project-max.png");
+      background-repeat: no-repeat;
+      background-position: center; } }
+  .heave-a-project__title {
+    font-size: 52px;
+    color: #FFFFFF;
+    margin: 15px 0; }
+  .heave-a-project__subtitle {
+    font-size: 28px;
+    color: #FFFFFF; }
+  .heave-a-project__button {
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 14px 37px;
+    margin-top: 50px;
+    cursor: pointer; }
 
 section#service {
   width: 100%;
@@ -400,7 +790,7 @@ section#service {
   float: left;
   position: relative; }
   section#service .service-container {
-    width: calc(100% - 140px);
+    width: calc(100% - 280px);
     overflow: hidden;
     margin: 0 auto; }
     section#service .service-container__content {
@@ -432,7 +822,7 @@ section#markets {
   position: relative;
   padding-bottom: 181px; }
   section#markets .markets-container {
-    width: calc(100% - 15px);
+    width: calc(100% - 30px);
     overflow: hidden;
     margin: 0 auto; }
     section#markets .markets-container__header {
@@ -484,7 +874,7 @@ section#innovation {
   height: 1080px;
   padding: 114px 0 136.18px; }
   section#innovation .innovation-container {
-    width: calc(100% - 140px);
+    width: calc(100% - 280px);
     overflow: hidden;
     margin: 0 auto;
     height: 100%; }
@@ -550,7 +940,7 @@ section#bestwork {
   padding: 189px 0 151px 0;
   background: #fafafb; }
   section#bestwork .bestwork-container {
-    width: calc(100% - 15px);
+    width: calc(100% - 30px);
     overflow: hidden;
     margin: 0 auto; }
     section#bestwork .bestwork-container__header {
@@ -588,18 +978,33 @@ section#years {
   max-width: 100%;
   float: left;
   position: relative;
-  height: 1050px;
-  background: url("../images/bg-about.png") 25% 77% no-repeat; }
+  height: 1092px;
+  background: url(../images/bg-about.png) 25% 85% no-repeat; }
 section .years-container {
-  width: calc(100% - 140px);
+  width: calc(100% - 280px);
   overflow: hidden;
   margin: 0 auto;
   width: 1540px; }
   section .years-container__number {
     width: 604px; }
   section .years-container__description {
-    width: 889px;
-    padding-left: 58px; }
+    width: 904px;
+    padding-left: 46px;
+    padding-top: 243px; }
+    section .years-container__description h2 {
+      font-weight: 900;
+      line-height: 152px;
+      font-size: 110px;
+      color: #B41F84; }
+    section .years-container__description p {
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 37px;
+      color: #fff;
+      margin-top: 245px; }
+    section .years-container__description a {
+      margin-top: 46px;
+      font-style: italic; }
 
 section#testimonial {
   width: 100%;
@@ -608,7 +1013,7 @@ section#testimonial {
   position: relative;
   padding: 62px 0 177px 0; }
   section#testimonial .testmonials-container {
-    width: calc(100% - 15px);
+    width: calc(100% - 30px);
     overflow: hidden;
     margin: 0 auto; }
     section#testimonial .testmonials-container .fix-image {
@@ -641,7 +1046,7 @@ section#blog {
   float: left;
   position: relative; }
 section .blog-container {
-  width: calc(100% - 15px);
+  width: calc(100% - 30px);
   overflow: hidden;
   margin: 0 auto;
   padding: 0 0 112px 0; }
@@ -808,7 +1213,7 @@ section#header {
   position: fixed;
   z-index: 9999; }
   section#header .header-content {
-    width: calc(100% - 140px);
+    width: calc(100% - 280px);
     overflow: hidden;
     margin: 0 auto; }
     section#header .header-content__logotipo h2 {
@@ -903,7 +1308,6 @@ section#banner {
   max-width: 100%;
   float: left;
   position: relative;
-  background: url("../images/banner/banner.png") center center no-repeat;
   height: 1080px; }
   section#banner .b_headline {
     text-align: center;
@@ -912,13 +1316,15 @@ section#banner {
     section#banner .b_headline h2 {
       font-weight: 900;
       font-size: 82px;
-      color: #fff; }
+      color: #fff;
+      line-height: 92px; }
     section#banner .b_headline p {
       font-size: 28px;
       color: #fff;
       max-width: 780px;
       font-weight: 300;
-      margin: 16.77px 0 25px; }
+      margin: 16.77px 0 25px;
+      line-height: 38px; }
     section#banner .b_headline a {
       font-weight: 900;
       font-size: 16px;
@@ -1004,7 +1410,7 @@ section#footer {
   height: 267.74px;
   background: #11294B; }
 section .footer-container {
-  width: calc(100% - 140px);
+  width: calc(100% - 280px);
   overflow: hidden;
   margin: 0 auto; }
 
@@ -1016,7 +1422,7 @@ section#copy {
   height: 45px;
   background: #081A33; }
 section .copy-container {
-  width: calc(100% - 140px);
+  width: calc(100% - 280px);
   overflow: hidden;
   margin: 0 auto;
   height: 45px; }
